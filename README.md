@@ -20,21 +20,18 @@ Designed with **best practices** for scalability, security, and modularization �
 
 ## 🗂️ Project Structure
 
-terraform-aws-vpc/
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── terraform.tfvars
-├── modules/
-│ └── vpc/
-│ ├── main.tf
-│ ├── variables.tf
-│ └── outputs.tf
-└── assets/
-└── aws-vpc-diagram.png
-
-yaml
-Copy code
+- terraform-aws-vpc/
+- ├── main.tf
+- ├── variables.tf
+- ├── outputs.tf
+- ├── terraform.tfvars
+- ├── modules/
+- │ └── vpc/
+- │ ├── main.tf
+- │ ├── variables.tf
+- │ └── outputs.tf
+- └── assets/
+-   └── aws-vpc-diagram.png
 
 ---
 
