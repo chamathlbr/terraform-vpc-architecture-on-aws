@@ -57,12 +57,7 @@ Designed with **best practices** for scalability, security, and modularization �
 - Proper IAM permissions (EC2, VPC, IGW, EIP, NAT, RouteTables)
 
 ### 2️⃣ Initialize and Deploy
-```bash
+
 terraform init
 terraform plan
 terraform apply -auto-approve
-💡 Tip: To destroy the environment when done:
-
-bash
-Copy code
-terraform destroy -auto-approve
